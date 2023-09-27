@@ -1,0 +1,60 @@
+
+body {
+    background: linear-gradient(45deg, rgb(179, 72, 72), #282C35);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+
+.main_div {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.centered-content {
+    text-align: center; 
+    color: whitesmoke;
+}
+
+h1{
+    color: whitesmoke;
+    top: 500px;
+    left: 300px;
+}
+
+img{
+    width: 500px;
+    height: 400px;
+    left: 150px;
+    top: 90px;
+}
+p{
+    color: whitesmoke;
+    top: 550px;
+    left: 360px;
+}
+#prev{
+    background-color: rgb(190, 84, 84);
+    border: none;
+    top: 600px;
+    left: 280px;
+}
+#play{
+    background-color: rgb(190, 84, 84);
+    top: 600px;
+    left: 370px;
+}
+#next{
+    background-color: rgb(190, 84, 84);
+    border: none;
+    top: 600px;
+    left: 440px;
+}
+.prev{
+    color: whitesmoke;
+    height: 5vh;
+}
